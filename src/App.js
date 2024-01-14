@@ -90,6 +90,19 @@ function App() {
         ))}
        </div>
      </div>
+     <div className='aboutPage'>
+      <h2>About Me</h2>
+      <div className='about'>
+      <img src="./hero.jpg" alt="about me" />
+         <div id='about' className='about-me'>
+          <p>This is my portfolio and I'm Ahmed Dalab, a web developer that knows many skills,
+            i can work different fields like front-end,backend and many others. 
+            i am also a web designer who knows photoshop,Allustrator and figma.
+          </p>
+         </div>
+      </div>
+         
+     </div>
     </div>
   );
 }

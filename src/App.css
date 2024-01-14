@@ -136,6 +136,29 @@ nav ul li:hover {
     padding: 10px;
 }
 
+/* about */
+.aboutPage h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+}
+.about {
+    display: flex;
+}
+.about img {
+    height: 400px;
+    width: 300px;
+    margin-left: 100px;
+    border-radius: 50%;
+    box-shadow: 11px 23px 27px -3px rgba(15,81,156,0.62);
+    margin-bottom: 100px;
+}
+.about p {
+    margin-left: 20px;
+    margin-top: 150px;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
 @media screen and (max-width: 670px) {
     nav {
       display: none;
