@@ -67,7 +67,7 @@ function App() {
           </div>
      </div>
 
-     <div >
+     <div id='skills'>
       <h2 className='skill-header'>Skills</h2>
       <div className='skills'>
         {skills.map(skill => (
@@ -79,7 +79,7 @@ function App() {
       </div>
       
      </div>
-     <div className='services'>
+     <div id='services' className='services'>
       <h2 className='header'>Services</h2>
        <div className='services-list'>
         {services.map(service => (
@@ -89,6 +89,31 @@ function App() {
           </ul>
         ))}
        </div>
+     </div>
+
+     <div id='acheivements' className='achievement-section'>
+        <h2 className='achieve'>Achievements</h2>
+        <div className='achievements'>
+          <div className='left'>
+            <img src="./ahcievement.avif" alt="achievements" />
+          </div>
+          <div className='right'>
+            <ul>
+              <li>
+              <span>1</span>
+               Full-Stack Developer
+              </li>
+              <li>
+              <span>2</span>
+               DevOps
+              </li>
+              <li>
+              <span>3</span>
+               Designer
+              </li>
+            </ul>
+          </div>
+        </div>
      </div>
     </div>
   );

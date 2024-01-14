@@ -120,14 +120,14 @@ nav ul li:hover {
 .services-list {
     display: flex;
     flex-direction: row;
-    margin: 10px;
+    margin-left: 50px;
     flex-wrap: wrap;
 }
 .services-list ul {
     text-align: center;
     border-radius: 20px;
-    box-shadow: 11px 23px 27px -3px rgba(15,81,156,0.62);
-    margin-left: 10px;
+    box-shadow: 11px 13px 17px -3px rgba(15,81,156,0.62);
+    margin-left: 50px;
     padding: 20px;
     margin: 10px;
     width: 200px;
@@ -135,6 +135,37 @@ nav ul li:hover {
 .services-list ul p {
     padding: 10px;
 }
+/* achievement section */
+.achievement-section .achieve {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+}
+.achievement-section .achievements {
+    display: flex;
+}
+.achievement-section .achievements .left img{
+    height: 600px;
+    width: 700px;
+}
+.achievement-section .achievements .right ul {
+    list-style: none;
+   margin-top: 200px;
+   margin-left: 100px;
+}
+.achievement-section .achievements .right li {
+    padding: 30px;
+    font-size: 20px;
+}
+.achievement-section .achievements .right li span {
+    border: 1px solid #333;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 11px 13px 17px -3px rgba(15,81,156,0.62);
+}
+
 
 @media screen and (max-width: 670px) {
     nav {
