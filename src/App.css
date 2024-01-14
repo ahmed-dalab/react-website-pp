@@ -190,6 +190,25 @@ nav ul li:hover {
     font-size: 30px;
     letter-spacing: 1px;
 }
+/* footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 10px;
+}
+footer p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+footer .footer {
+    display: flex;
+}
+footer .footer a img {
+    height: 30px;
+    width: 40px;
+    margin: 10px;
+}
 @media screen and (max-width: 670px) {
     nav {
       display: none;

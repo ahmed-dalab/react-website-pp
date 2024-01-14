@@ -128,6 +128,23 @@ function App() {
       </div>
          
      </div>
+     <footer>
+      <p>  &copy; 2024 reserverd by Ahmed Dalab</p>
+      <div className='footer'>
+        <a href="#twitter">
+          <img src="./twitter.png" alt="twitter" />
+        </a>
+        <a href="#whatsapp">
+          <img src="./whatsapp.png" alt="whatsapp" />
+        </a>
+        <a href="#gmail">
+          <img src="./gmail.png" alt="gmail" />
+        </a>
+        <a href="#fb">
+          <img src="./facebook.png" alt="facebook" />
+        </a>
+      </div>
+     </footer>
     </div>
   );
 }
