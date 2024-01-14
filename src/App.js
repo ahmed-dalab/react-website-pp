@@ -115,7 +115,7 @@ function App() {
           </div>
         </div>
      </div>
-     <div className='aboutPage'>
+     <div id='about' className='aboutPage'>
       <h2>About Me</h2>
       <div className='about'>
       <img src="./hero.jpg" alt="about me" />
